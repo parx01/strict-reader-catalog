@@ -578,7 +578,7 @@
     },
     {
       "id": "elpais-en",
-      "name": "EL PAÃS English",
+      "name": "EL PAÍS English",
       "category": "World",
       "feedUrl": "https://feeds.elpais.com/mrss-s/pages/ep/site/english.elpais.com/portada",
       "siteUrl": "https://english.elpais.com/",
