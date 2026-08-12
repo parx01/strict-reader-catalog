@@ -796,6 +796,19 @@
       "publisherType": "local",
       "featuredBylines": [],
       "accentHex": "#1C4E80"
+    },
+    {
+      "id": "the-race-main",
+      "name": "The Race",
+      "category": "Sport",
+      "feedUrl": "https://www.the-race.com/rss/",
+      "siteUrl": "https://www.the-race.com/",
+      "language": "en",
+      "country": "GB",
+      "editorialTier": "standard",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#E32636"
     }
   ]
 }

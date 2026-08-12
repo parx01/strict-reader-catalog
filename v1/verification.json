@@ -3,10 +3,10 @@
   "catalogGeneratedAt": "2026-08-12T00:00:00Z",
   "verifiedAt": "2026-08-12",
   "method": "Each publisher feed was fetched and parsed by FeedXmlParser. Three representative non-live article pages then required ArticleEligibilityPreflight READY evidence; a source needs at least two READY samples.",
-  "sourceCount": 61,
-  "verifiedSourceCount": 61,
+  "sourceCount": 62,
+  "verifiedSourceCount": 62,
   "minimumReadySamplesPerSource": 2,
-  "allSamplesReadySourceCount": 60,
+  "allSamplesReadySourceCount": 61,
   "mixedSamplesReadySourceCount": 1,
   "failedSourceCount": 0,
   "mixedSampleSources": [
