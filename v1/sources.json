@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T00:00:00Z",
+  "generatedAt": "2026-08-12T00:00:00Z",
   "sources": [
     {
       "id": "bbc-top",
@@ -15,19 +15,6 @@
       "featuredBylines": [],
       "liveAdapter": "bbc",
       "accentHex": "#BB1919"
-    },
-    {
-      "id": "npr-news",
-      "name": "NPR",
-      "category": "World",
-      "feedUrl": "https://feeds.npr.org/1001/rss.xml",
-      "siteUrl": "https://www.npr.org/sections/news/",
-      "language": "en",
-      "country": "US",
-      "editorialTier": "reference",
-      "publisherType": "public_service",
-      "featuredBylines": [],
-      "accentHex": "#D62021"
     },
     {
       "id": "guardian-world",
@@ -55,19 +42,6 @@
       "publisherType": "general_news",
       "featuredBylines": [],
       "accentHex": "#B88A44"
-    },
-    {
-      "id": "cbc-top",
-      "name": "CBC News",
-      "category": "World",
-      "feedUrl": "https://www.cbc.ca/cmlink/rss-topstories",
-      "siteUrl": "https://www.cbc.ca/news",
-      "language": "en",
-      "country": "CA",
-      "editorialTier": "reference",
-      "publisherType": "public_service",
-      "featuredBylines": [],
-      "accentHex": "#E60505"
     },
     {
       "id": "abc-au-top",
@@ -224,19 +198,6 @@
       "publisherType": "general_news",
       "featuredBylines": [],
       "accentHex": "#00A6A6"
-    },
-    {
-      "id": "yahoo-sports",
-      "name": "Yahoo Sports",
-      "category": "Sport",
-      "feedUrl": "https://sports.yahoo.com/rss/",
-      "siteUrl": "https://sports.yahoo.com/",
-      "language": "en",
-      "country": "US",
-      "editorialTier": "standard",
-      "publisherType": "specialist",
-      "featuredBylines": [],
-      "accentHex": "#6001D2"
     },
     {
       "id": "hyperallergic-main",
@@ -603,19 +564,6 @@
       "accentHex": "#FF6600"
     },
     {
-      "id": "calmatters",
-      "name": "CalMatters",
-      "category": "Local",
-      "feedUrl": "https://calmatters.org/feed/",
-      "siteUrl": "https://calmatters.org/",
-      "language": "en",
-      "country": "US",
-      "editorialTier": "established",
-      "publisherType": "local",
-      "featuredBylines": [],
-      "accentHex": "#F2A900"
-    },
-    {
       "id": "vtdigger",
       "name": "VTDigger",
       "category": "Local",
@@ -718,6 +666,136 @@
       "publisherType": "specialist",
       "featuredBylines": [],
       "accentHex": "#C41E3A"
+    },
+    {
+      "id": "groundup-main",
+      "name": "GroundUp",
+      "category": "World",
+      "feedUrl": "https://groundup.org.za/sitenews/rss/",
+      "siteUrl": "https://groundup.org.za/",
+      "language": "en",
+      "country": "ZA",
+      "editorialTier": "established",
+      "publisherType": "local",
+      "featuredBylines": [],
+      "accentHex": "#147D64"
+    },
+    {
+      "id": "hong-kong-free-press",
+      "name": "Hong Kong Free Press",
+      "category": "World",
+      "feedUrl": "https://hongkongfp.com/feed/",
+      "siteUrl": "https://hongkongfp.com/",
+      "language": "en",
+      "country": "HK",
+      "editorialTier": "established",
+      "publisherType": "local",
+      "featuredBylines": [],
+      "accentHex": "#D9232E"
+    },
+    {
+      "id": "global-voices",
+      "name": "Global Voices",
+      "category": "World",
+      "feedUrl": "https://globalvoices.org/feed/",
+      "siteUrl": "https://globalvoices.org/",
+      "language": "en",
+      "country": "NL",
+      "editorialTier": "established",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#C63D2D"
+    },
+    {
+      "id": "bellingcat-main",
+      "name": "Bellingcat",
+      "category": "World",
+      "feedUrl": "https://www.bellingcat.com/feed/",
+      "siteUrl": "https://www.bellingcat.com/",
+      "language": "en",
+      "country": "NL",
+      "editorialTier": "established",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#E9483F"
+    },
+    {
+      "id": "carbon-brief",
+      "name": "Carbon Brief",
+      "category": "Science",
+      "feedUrl": "https://www.carbonbrief.org/feed/",
+      "siteUrl": "https://www.carbonbrief.org/",
+      "language": "en",
+      "country": "GB",
+      "editorialTier": "established",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#169B62"
+    },
+    {
+      "id": "wyofile-main",
+      "name": "WyoFile",
+      "category": "Local",
+      "feedUrl": "https://wyofile.com/feed/",
+      "siteUrl": "https://wyofile.com/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "standard",
+      "publisherType": "local",
+      "featuredBylines": [],
+      "accentHex": "#315C45"
+    },
+    {
+      "id": "minnpost-main",
+      "name": "MinnPost",
+      "category": "Local",
+      "feedUrl": "https://www.minnpost.com/feed/",
+      "siteUrl": "https://www.minnpost.com/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "standard",
+      "publisherType": "local",
+      "featuredBylines": [],
+      "accentHex": "#A8242F"
+    },
+    {
+      "id": "the-lens-nola",
+      "name": "The Lens",
+      "category": "Local",
+      "feedUrl": "https://thelensnola.org/feed/",
+      "siteUrl": "https://thelensnola.org/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "standard",
+      "publisherType": "local",
+      "featuredBylines": [],
+      "accentHex": "#8D2E2E"
+    },
+    {
+      "id": "kff-health-news",
+      "name": "KFF Health News",
+      "category": "Science",
+      "feedUrl": "https://kffhealthnews.org/feed/",
+      "siteUrl": "https://kffhealthnews.org/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "established",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#1F6B75"
+    },
+    {
+      "id": "nevada-independent",
+      "name": "The Nevada Independent",
+      "category": "Local",
+      "feedUrl": "https://thenevadaindependent.com/feed",
+      "siteUrl": "https://thenevadaindependent.com/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "standard",
+      "publisherType": "local",
+      "featuredBylines": [],
+      "accentHex": "#1C4E80"
     }
   ]
 }
