@@ -1,16 +1,17 @@
 {
   "schemaVersion": 1,
-  "catalogGeneratedAt": "2026-08-12T00:00:00Z",
-  "verifiedAt": "2026-08-12",
+  "catalogGeneratedAt": "2026-08-18T00:00:00Z",
+  "verifiedAt": "2026-08-18",
   "method": "Each publisher feed was fetched and parsed by FeedXmlParser. Three representative non-live article pages then required ArticleEligibilityPreflight READY evidence; a source needs at least two READY samples.",
-  "sourceCount": 62,
-  "verifiedSourceCount": 62,
+  "sourceCount": 63,
+  "verifiedSourceCount": 63,
   "minimumReadySamplesPerSource": 2,
-  "allSamplesReadySourceCount": 61,
-  "mixedSamplesReadySourceCount": 1,
-  "failedSourceCount": 0,
+  "allSamplesReadySourceCount": 60,
+  "mixedSamplesReadySourceCount": 2,
+  "failedSourceCount": 1,
   "mixedSampleSources": [
-    "al-jazeera-all"
+    "al-jazeera-all",
+    "nasa-news"
   ],
   "excludedSources": [
     {
@@ -54,16 +55,34 @@
       "reason": "2026-08-12 release gate: 1/3 READY; two samples hit HTTP_AUTH_GATE; retired without retry"
     },
     {
-      "id": "cbc-top",
-      "reason": "2026-08-12 release gate: 0/3 READY; all samples failed INSUFFICIENT_BODY; retired without retry"
-    },
-    {
       "id": "yahoo-sports",
       "reason": "2026-08-12 release gate: 0/3 READY; all samples failed SANITIZED_EMPTY; retired without retry"
     },
     {
       "id": "calmatters",
       "reason": "2026-08-12 release gate: 1/3 READY; two samples failed READABILITY_EXCEPTION; retired without retry"
+    }
+  ],
+  "admissionExemptions": [
+    {
+      "id": "hyperallergic-main",
+      "verifiedAt": "2026-08-18",
+      "result": "0/3 READY; three samples HEURISTIC_LOGIN_WALL",
+      "finding": "hyperallergic.com serves three body paragraphs and then an inline registration wall reading 'Create a free account, or sign in to continue reading'. The remainder of the article is absent from the delivered HTML. This is a publisher change since 2026-08-12, not a classifier false positive.",
+      "decision": "Published by explicit maintainer decision on 2026-08-18 despite failing the two-of-three admission gate.",
+      "consequence": "The opt-in live verifier (-PverifyLiveSourceCatalog=true) fails while this source remains in the catalog and below the gate. Individual Hyperallergic articles still cannot reach Home: article eligibility is READY-only and independent of catalog membership.",
+      "evidence": "docs/source-supply/v2_3/live-verification-2026-08-18.json"
+    }
+  ],
+  "recoveredSources": [
+    {
+      "id": "cbc-top",
+      "supersededExclusion": "2026-08-12 release gate: 0/3 READY; all samples failed INSUFFICIENT_BODY; retired without retry",
+      "cause": "BUG-LIMIT-078. A near-top 'Listen to this article' control was treated as an article-tail marker, discarding the body. The 2026-08-12 verdict measured our defect, not the publisher; under the current taxonomy it reports as HYGIENE_COLLAPSE.",
+      "readmittedAt": "2026-08-18",
+      "result": "3/3 READY on https://www.cbc.ca/webfeed/rss/rss-topstories",
+      "evidence": "docs/source-supply/v2_3/recovery-ledger.json; docs/source-supply/cbc/2026-08-15/; docs/source-supply/v2_3/cbc-diagnostic-2026-08-18.json",
+      "note": "The V2.2 exclusion ledger at docs/source-supply/v2_2/exclusion-ledger.json is historical evidence and is not edited."
     }
   ],
   "maintenanceCommand": ".\\scripts\\verify_source_catalog.ps1",

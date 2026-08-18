@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T00:00:00Z",
+  "generatedAt": "2026-08-18T00:00:00Z",
   "sources": [
     {
       "id": "bbc-top",
@@ -809,6 +809,19 @@
       "publisherType": "specialist",
       "featuredBylines": [],
       "accentHex": "#E32636"
+    },
+    {
+      "id": "cbc-top",
+      "name": "CBC News",
+      "category": "World",
+      "feedUrl": "https://www.cbc.ca/webfeed/rss/rss-topstories",
+      "siteUrl": "https://www.cbc.ca/news",
+      "language": "en",
+      "country": "CA",
+      "editorialTier": "reference",
+      "publisherType": "public_service",
+      "featuredBylines": [],
+      "accentHex": "#E60505"
     }
   ]
 }
