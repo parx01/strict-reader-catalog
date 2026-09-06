@@ -822,6 +822,19 @@
       "publisherType": "public_service",
       "featuredBylines": [],
       "accentHex": "#E60505"
+    },
+    {
+      "id": "yahoo-sports",
+      "name": "Yahoo Sports",
+      "category": "Sport",
+      "feedUrl": "https://sports.yahoo.com/rss/",
+      "siteUrl": "https://sports.yahoo.com/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "standard",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#6001D2"
     }
   ]
 }
