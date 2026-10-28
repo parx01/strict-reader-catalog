@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-18T00:00:00Z",
+  "generatedAt": "2026-10-28T00:00:00Z",
   "sources": [
     {
       "id": "bbc-top",
@@ -148,19 +148,6 @@
       "accentHex": "#F6C900"
     },
     {
-      "id": "the-hindu-national",
-      "name": "The Hindu",
-      "category": "Local",
-      "feedUrl": "https://www.thehindu.com/news/national/feeder/default.rss",
-      "siteUrl": "https://www.thehindu.com/news/national/",
-      "language": "en",
-      "country": "IN",
-      "editorialTier": "reference",
-      "publisherType": "general_news",
-      "featuredBylines": [],
-      "accentHex": "#133A63"
-    },
-    {
       "id": "times-of-india-top",
       "name": "The Times of India",
       "category": "Local",
@@ -172,19 +159,6 @@
       "publisherType": "general_news",
       "featuredBylines": [],
       "accentHex": "#C51A1B"
-    },
-    {
-      "id": "cnbc-top",
-      "name": "CNBC",
-      "category": "Business",
-      "feedUrl": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
-      "siteUrl": "https://www.cnbc.com/",
-      "language": "en",
-      "country": "US",
-      "editorialTier": "established",
-      "publisherType": "specialist",
-      "featuredBylines": [],
-      "accentHex": "#005594"
     },
     {
       "id": "hindustan-times-india",
@@ -224,19 +198,6 @@
       "publisherType": "specialist",
       "featuredBylines": [],
       "accentHex": "#005A9C"
-    },
-    {
-      "id": "moneycontrol-latest",
-      "name": "Moneycontrol",
-      "category": "Business",
-      "feedUrl": "https://www.moneycontrol.com/rss/latestnews.xml",
-      "siteUrl": "https://www.moneycontrol.com/",
-      "language": "en",
-      "country": "IN",
-      "editorialTier": "established",
-      "publisherType": "specialist",
-      "featuredBylines": [],
-      "accentHex": "#F58220"
     },
     {
       "id": "mongabay-india-main",
@@ -291,19 +252,6 @@
       "accentHex": "#5B2C83"
     },
     {
-      "id": "yahoo-finance-main",
-      "name": "Yahoo Finance",
-      "category": "Business",
-      "feedUrl": "https://finance.yahoo.com/news/rssindex",
-      "siteUrl": "https://finance.yahoo.com/",
-      "language": "en",
-      "country": "US",
-      "editorialTier": "established",
-      "publisherType": "specialist",
-      "featuredBylines": [],
-      "accentHex": "#6001D2"
-    },
-    {
       "id": "science-news-main",
       "name": "Science News",
       "category": "Science",
@@ -346,7 +294,7 @@
       "id": "daily-star-bd",
       "name": "The Daily Star",
       "category": "World",
-      "feedUrl": "https://www.thedailystar.net/rss.xml",
+      "feedUrl": "https://www.thedailystar.net/top-news/rss.xml",
       "siteUrl": "https://www.thedailystar.net/",
       "language": "en",
       "country": "BD",
@@ -398,7 +346,7 @@
       "id": "opendemocracy-main",
       "name": "openDemocracy",
       "category": "Politics",
-      "feedUrl": "https://www.opendemocracy.net/en/rss/",
+      "feedUrl": "https://www.opendemocracy.net/feed/",
       "siteUrl": "https://www.opendemocracy.net/en/",
       "language": "en",
       "country": "GB",
@@ -835,6 +783,45 @@
       "publisherType": "specialist",
       "featuredBylines": [],
       "accentHex": "#6001D2"
+    },
+    {
+      "id": "promarket-main",
+      "name": "ProMarket",
+      "category": "Business",
+      "feedUrl": "https://www.promarket.org/feed/",
+      "siteUrl": "https://www.promarket.org/",
+      "language": "en",
+      "country": "US",
+      "editorialTier": "standard",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#7A1E2C"
+    },
+    {
+      "id": "the-bridge-main",
+      "name": "The Bridge",
+      "category": "Sport",
+      "feedUrl": "https://thebridge.in/feed",
+      "siteUrl": "https://thebridge.in/",
+      "language": "en",
+      "country": "IN",
+      "editorialTier": "standard",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#D9481C"
+    },
+    {
+      "id": "finshots-main",
+      "name": "Finshots",
+      "category": "Business",
+      "feedUrl": "https://finshots.in/archive/rss/",
+      "siteUrl": "https://finshots.in/",
+      "language": "en",
+      "country": "IN",
+      "editorialTier": "standard",
+      "publisherType": "specialist",
+      "featuredBylines": [],
+      "accentHex": "#1B6B5A"
     }
   ]
 }

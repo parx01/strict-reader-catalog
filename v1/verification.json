@@ -1,24 +1,17 @@
 {
   "schemaVersion": 1,
-  "catalogGeneratedAt": "2026-09-07T00:00:00Z",
-  "verifiedAt": "2026-09-07",
+  "catalogGeneratedAt": "2026-10-28T00:00:00Z",
+  "verifiedAt": "2026-10-28",
+  "commercialPosture": "non_commercial",
   "method": "Each publisher feed was fetched and parsed by FeedXmlParser. Three representative non-live article pages then required ArticleEligibilityPreflight READY evidence; a source needs at least two READY samples.",
-  "sourceCount": 64,
-  "verifiedSourceCount": 64,
+  "sourceCount": 63,
+  "verifiedSourceCount": 63,
   "minimumReadySamplesPerSource": 2,
-  "allSamplesReadySourceCount": 59,
-  "mixedSamplesReadySourceCount": 3,
+  "allSamplesReadySourceCount": 61,
+  "mixedSamplesReadySourceCount": 0,
   "failedSourceCount": 2,
-  "mixedSampleSources": [
-    "times-of-india-top",
-    "yahoo-finance-main",
-    "himal-southasian"
-  ],
-  "failureLayers": {
-    "HEURISTIC_LOGIN_WALL": 2,
-    "HEURISTIC_PAYWALL": 2,
-    "INSUFFICIENT_BODY": 1
-  },
+  "mixedSampleSources": [],
+  "failureLayers": {},
   "lifecycle": [
     {
       "id": "hyperallergic-main",
@@ -34,6 +27,403 @@
       ],
       "priorEvidence": "docs/source-supply/v2_3/live-verification-2026-08-18.json — 0/3 READY, three HEURISTIC_LOGIN_WALL verdicts on 2026-08-18, published by decision under KD-022. Kept as history: the lifecycle clock starts fresh at KD-023, so this window is not counted toward retirement.",
       "history": []
+    }
+  ],
+  "categorySupplyReview": [
+    {
+      "category": "Culture",
+      "level": "coverage_failure",
+      "healthyCount": 0,
+      "reviewedAt": "2026-10-28",
+      "supplyFingerprint": "b5a5f61d12aff43585c06d117d500b99067c10f03f466faedb816392050103ad",
+      "decision": "hold",
+      "rationale": "Maintainer decision 2026-10-28 (source-health audit, PR #108): the PLAY-601 freeze is lifted for this catalog change (4 retired, ProMarket, The Bridge and Finshots admitted, openDemocracy and The Daily Star feed addresses repaired), and Culture's coverage failure is held again on the same grounds as 2026-09-25. hyperallergic-main stays watch with no promotion or retirement. STIRworld stays held for whole-article partner content; Music In Africa stays held until BUG-LIMIT-125 and its CC licence obligations (BUG-LIMIT-130) are implemented. No admission is made to clear the failure.",
+      "evidence": "docs/releases/v1-culture-category-supply-review-2026-10-28.md",
+      "recoveryTarget": "Admit one healthy Culture publisher (SUPPLY_WARNING) or two (HEALTHY_SUPPLY) through the ordinary KD-018/KD-037/KD-038 gate; the admission changes the fingerprint and this record must then be deleted."
+    }
+  ],
+  "accessClassesNote": "KD-037 access classification. Every incumbent is D on ratification day because no controlling-terms capture had been taken for any of them; an empty evidence field means exactly that and is not an oversight. D holds a candidate out at admission and is reported for an incumbent -- publication is blocked by C, by a class-B source under a commercial commercialPosture, and by any catalogued source with no record. Audit order and the initial queue are in KD-037; classification never follows supply pressure. For authoritative A, B or C, evidence is a repo-relative path plus a record key, '<capture artifact>#<candidateId>/<evidenceType>', resolving from the exact Git-index bytes to one successful structured capture; a bare URL, failed capture, fabricated path, untracked file or unstaged replacement is insufficient. Class B additionally requires the full canonical 19-pattern negative-search inventory. Evidence must use the reviewed source's site/feed host unless additionalEvidenceHosts plus evidenceHostReason explicitly records a legitimate legal or parent-company relationship. Those records also require an access-review-v1 sourceFingerprint binding the reviewed source id, name, feedUrl, siteUrl and liveAdapter. D may omit evidence and fingerprint because it authorises nothing and means evidence was insufficient.",
+  "accessClasses": [
+    {
+      "id": "bbc-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "guardian-world",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "al-jazeera-all",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "abc-au-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "cbs-news-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "abc-news-us-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "propublica-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "techcrunch-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "mit-news-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "nasa-news",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "smithsonian-latest",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "times-of-india-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "hindustan-times-india",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "hyperallergic-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "science-daily-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "mongabay-india-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "pbs-newshour-headlines",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-conversation-global",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-19th-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "science-news-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "scroll-in",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "rappler-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "daily-star-bd",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "kathmandu-post",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "channel-news-asia",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "balkan-insight",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "opendemocracy-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "marshall-project",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "grist-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-markup",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "quanta-magazine",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "rest-of-world",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "chalkbeat-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-federal",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "east-mojo",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "free-press-journal",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "himal-southasian",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "elpais-en",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "texas-tribune",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "vtdigger",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "block-club-chicago",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-appeal",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "bolts-mag",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "prism-reports",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "capital-b",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "high-country-news",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "nieman-lab",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "groundup-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "hong-kong-free-press",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "global-voices",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "bellingcat-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "carbon-brief",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "wyofile-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "minnpost-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-lens-nola",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "kff-health-news",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "nevada-independent",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "the-race-main",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "cbc-top",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "yahoo-sports",
+      "class": "D",
+      "evidence": "",
+      "reviewedAt": "2026-09-09"
+    },
+    {
+      "id": "promarket-main",
+      "class": "B",
+      "evidence": "docs/source-supply/v2_6/access-evidence/access-policy-evidence-batch3.json#V26-PROMARKET/TERMS",
+      "reviewedAt": "2026-10-28",
+      "sourceFingerprint": "4A79FF65EF96408588AE1EAED63002555877353650A46BCC16E431A8F89816D3"
+    },
+    {
+      "id": "the-bridge-main",
+      "class": "B",
+      "evidence": "docs/source-supply/v2_6/access-evidence/access-policy-evidence-batch3.json#V26-THE-BRIDGE/TERMS",
+      "reviewedAt": "2026-10-28",
+      "sourceFingerprint": "3A829223838C02BA29A8D944FCFA5D0D342F6D3A5BEB3CAAD11290AC5D2466BB"
+    },
+    {
+      "id": "finshots-main",
+      "class": "B",
+      "evidence": "docs/source-supply/v2_6/access-evidence/access-policy-evidence-batch3.json#V26-FINSHOTS/TERMS",
+      "reviewedAt": "2026-10-28",
+      "sourceFingerprint": "01A48503C885FBBB6FC0B214048883AF239FF58C4B41DAD04E4BF67DDA786B26"
     }
   ],
   "excludedSources": [
